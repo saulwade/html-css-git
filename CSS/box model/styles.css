@@ -1,0 +1,17 @@
+.box {
+  width: 200px;
+  border: 1px solid red;
+  padding: 16px;
+  margin: 16px;
+  box-sizing: border-box;
+}
+
+/* CSS BREAKPOINTS */
+
+@media (max-width: 480px) {
+  .box {
+    font-size: 12px;
+  }
+}
+
+/* 2:29:48 */
