@@ -83,3 +83,18 @@ let hasMem = true;
 loggedIn && hasMem
   ? console.log("show the video")
   : console.log("dont show the video");
+
+// loops
+// DRY - don't repeat yourself
+
+let counter = 1;
+
+while (counter <= 5) {
+  console.log(counter);
+  counter = counter + 1;
+}
+console.log("while loop finished running");
+
+for (let i = 0; i < 20; i = i += 2) {
+  console.log(i);
+}
