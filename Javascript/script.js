@@ -95,6 +95,63 @@ while (counter <= 5) {
 }
 console.log("while loop finished running");
 
-for (let i = 0; i < 20; i = i += 2) {
+for (let i = 0; i < 20; i += 2) {
   console.log(i);
 }
+
+// Ejercicio loops
+
+for (let i = 1; i < 16; i += 1) {
+  if (i % 2 == 0) {
+    console.log(`${i} Frontend`);
+  } else if (i % 5 == 0) {
+    console.log(`${i} ASAP Frontend`);
+  } else {
+    console.log(`${i} ASAP`);
+  }
+}
+
+// Ejercicio 2 loops
+
+let text = "ASAP Frontend";
+
+for (let char of text) {
+  console.log(char);
+}
+
+// Funciones
+
+function greetUser(usuario) {
+  console.log(`Hello ${usuario}`);
+}
+
+greetUser("Saul");
+
+greetUser("Ivonne");
+
+// if () {}
+// else if () {}
+// else {}
+// for () {}
+// function nameFunction() {}
+// usa estos ` ` y ${}
+// ` `
+
+function currencyConverter(usd) {
+  return `${usd} usd to aud is ${usd * 1.5}`;
+}
+
+console.log(currencyConverter(1000));
+
+// arrays
+
+let lista = ["apples", "banana", "fresas", "piña", "mandarinas"];
+
+console.log(lista[0]);
+
+console.log(lista[lista.length - 1]);
+
+// agregar algo a la lista
+
+lista.push(14);
+console.log(lista);
