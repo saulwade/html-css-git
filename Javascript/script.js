@@ -155,3 +155,47 @@ console.log(lista[lista.length - 1]);
 
 lista.push(14);
 console.log(lista);
+
+// objects
+
+let user3 = {
+  email: "saulwade@gmail.com",
+  password: "771270sw",
+  userName: "saulwade",
+  discord: "examplediscord",
+  subscription: "VIP+",
+};
+
+console.log(user3.email);
+
+let user4 = [
+  {
+    email: "saulwade@gmail.com",
+    password: "771270sw",
+    userName: "saulwade",
+    discord: "examplediscord",
+    subscription: "VIP+",
+  },
+  {
+    email: "saulwade@gmail.com",
+    password: "771270sw",
+    userName: "saulwade",
+    discord: "examplediscord2",
+    subscription: "VIP+",
+  },
+];
+
+console.log(user4[1].discord);
+
+// Challenge objects
+
+function signUP(
+  email,
+  password,
+  name,
+  discord,
+  subscription,
+  lessosCompleted
+) {}
+
+// 7:17:07
